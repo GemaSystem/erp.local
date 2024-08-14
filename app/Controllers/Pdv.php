@@ -140,9 +140,7 @@ class Pdv extends Controller
 
         // Separa a quantidade do codigo de barras
         
-      
         $aux = explode('*', $dados);
-
 
         // Caso exista aux na posição 1 então quer dizer que foi separado o x dos valores
         if(isset($aux[1])) :
