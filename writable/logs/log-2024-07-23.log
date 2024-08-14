@@ -1,0 +1,642 @@
+INFO - 2024-07-23 00:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:02:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 52.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:02:05 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(126): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:02:05 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(126): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:18:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:18:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:18:53 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(128): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:18:53 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(128): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:18:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 00:18:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 00:19:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:19:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:19:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:19:05 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(128): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:19:05 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(128): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:21:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 00:21:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 00:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:22:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:22:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:22:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:22:05 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(130): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:22:05 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(130): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:23:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:23:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:23:29 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(130): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:23:29 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(130): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:32:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:32:19 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:32:19 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-23 00:32:19 --> TypeError: Cannot access offset of type string on string
+in APPPATH\Views\pdv\start.php on line 443.
+ 1 SYSTEMPATH\View\View.php(228): include()
+ 2 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 4 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 6 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-07-23 00:32:19 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\erp.local\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\xampp\htdocs\erp.local\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\erp.local\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\erp.local\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(TypeError), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\erp.local\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(TypeError), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(TypeError))
+#5 {main}
+  thrown
+【Previous Exception】
+TypeError
+Cannot access offset of type string on string
+#0 C:\xampp\htdocs\erp.local\system\View\View.php(228): include()
+#1 C:\xampp\htdocs\erp.local\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\erp.local\system\Common.php(1178): CodeIgniter\View\View->render('pdv/start', Array, true)
+#3 C:\xampp\htdocs\erp.local\app\Controllers\Pdv.php(132): view('pdv/start', Array)
+#4 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+#5 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+#6 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\erp.local\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#8 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-07-23 00:32:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:32:49 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:32:50 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:32:50 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 00:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 00:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 00:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 00:33:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 00:33:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:33:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:33:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:33:38 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:33:38 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:34:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:34:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:34:31 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:34:31 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:37:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:37:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:37:04 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 00:37:04 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:37:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:37:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:37:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 00:39:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 00:39:50 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 11:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 11:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 11:05:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 11:05:28 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 11:05:28 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 11:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-07-23 11:05:30 --> ErrorException: unlink(C:\xampp\htdocs\erp.local\writable\debugbar/debugbar_1721694118.450010.json): No such file or directory
+in SYSTEMPATH\Debug\Toolbar\Collectors\History.php on line 80.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp\\htdocs\\erp.local\\writable\\debugbar/debugbar_1721694118.450010.json): No such file or directory', 'C:\\xampp\\htdocs\\erp.local\\system\\Debug\\Toolbar\\Collectors\\History.php', 80)
+ 2 SYSTEMPATH\Debug\Toolbar\Collectors\History.php(80): unlink('C:\\xampp\\htdocs\\erp.local\\writable\\debugbar/debugbar_1721694118.450010.json')
+ 3 SYSTEMPATH\Debug\Toolbar.php(496): CodeIgniter\Debug\Toolbar\Collectors\History->setFiles('1721732729.380208', 20)
+ 4 SYSTEMPATH\Debug\Toolbar.php(475): CodeIgniter\Debug\Toolbar->format([...], 'html')
+ 5 APPPATH\Config\Events.php(47): CodeIgniter\Debug\Toolbar->respond()
+ 6 SYSTEMPATH\Events\Events.php(154): CodeIgniter\Events\Events::Config\{closure}()
+ 7 SYSTEMPATH\CodeIgniter.php(442): CodeIgniter\Events\Events::trigger('pre_system')
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 11:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 11:05:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 11:05:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 11:05:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 11:05:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 11:05:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 11:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 11:06:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 11:06:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissaor is deprecated in APPPATH\Controllers\Pdv.php on line 316.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->removeProdutoDoPdv('3', '55')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 11:06:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 11:06:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 11:09:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 11:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 11:16:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 11:16:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 11:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 11:17:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 11:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 11:19:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 11:19:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:19:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:23:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:23:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:23:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:24:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:24:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:24:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:24:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 16:24:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissaor is deprecated in APPPATH\Controllers\Pdv.php on line 316.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->removeProdutoDoPdv('3', '55')
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:24:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:24:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:24:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:27:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:27:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:27:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:27:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:27:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:27:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:27:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:27:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:27:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 16:27:58 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 16:27:58 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:28:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:28:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:28:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:32:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:35:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:36:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:36:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:37:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:37:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:37:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:37:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:39:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:39:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:40:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:40:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 16:40:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:40:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 16:40:07 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 16:40:07 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:40:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:40:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:40:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:40:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:40:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-07-23 16:40:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 16:40:48 --> [DEPRECATED] number_format(): Passing null to parameter #1 ($num) of type float is deprecated in APPPATH\Views\pdv\start.php on line 144.
+ 1 APPPATH\Views\pdv\start.php(144): number_format(null, 2, ',', '.')
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-07-23 16:40:48 --> [DEPRECATED] round(): Passing null to parameter #1 ($num) of type int|float is deprecated in APPPATH\Views\pdv\start.php on line 358.
+ 1 APPPATH\Views\pdv\start.php(358): round(null, 2)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(132): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-07-23 16:41:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 22:54:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-07-23 22:54:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
