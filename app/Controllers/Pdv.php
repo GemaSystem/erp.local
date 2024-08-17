@@ -176,6 +176,7 @@ class Pdv extends Controller
 
             if ($produto['unidade']=='KG'):
               $subtotal   = (float)$ValorKG;
+              $valor_unitario = $subtotal;
               $quantidade = round($ValorKG / $valor_unitario, 4);  
             else :
                 if ($produto['unidade']=='PD'):
