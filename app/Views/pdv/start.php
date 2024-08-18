@@ -33,7 +33,7 @@
     <script src="<?= base_url('theme/plugins/chart.js/Chart.min.js') ?>"></script>
 </head>
 
-<body style="background: lightgrey">
+<body style="background: lightgrey" onafterprint="debug(event)">
     <!-- Modal Altera Quantidade -->
     <div class="modal fade" id="alterar-qtd-do-produto">
         <div class="modal-dialog modal-sm">
@@ -296,7 +296,7 @@
     <!-- /.modal -->
 
     <!-- Modal CUPOM NÃO FISCAL -->
-    <div class="modal fade" id="modal-cupom-nao-fiscal">
+    <div class="modal fade" id="modal-cupom-nao-fiscal" >
         <div class="modal-dialog modal-md" style="width: 300px"> <!-- 300px = 80mm -->
             <div class="modal-content">
                 <div class="modal-header no-print">
@@ -309,8 +309,8 @@
                     <div id="cupom-nao-fiscal"></div>
                 </div>
                 <div class="modal-footer justify-content-between no-print">
-                    <button type="button" class="btn btn-default" data-dismiss="modal" onclick="location.reload()">Fechar</button>
-                    <button type="button" class="btn btn-success" onclick="print()"><i class="fas fa-print"></i> Imprimir Cupom</button>
+                    <button type="button" class="btn btn-default" id="btnFecharVenda" data-dismiss="modal" onclick="location.reload()">Fechar</button>
+                    <button type="button" class="btn btn-success" id="imprimir-cupom" onclick="print()"><i class="fas fa-print"></i> Imprimir Cupom</button>
                 </div>
             </div>
             <!-- /.modal-content -->
@@ -541,6 +541,9 @@
                         // Adiciona data (cupom não fiscal) no modal e exibe ele
                         document.getElementById('cupom-nao-fiscal').innerHTML = data;
                         $('#modal-cupom-nao-fiscal').modal('show');
+                        $(document).ready(function() {
+                           $('#imprimir-cupom').focus();
+                        });
                     }
                 }
             );
@@ -609,6 +612,14 @@
                 finalizaVenda();
             }
         });
+    </script>
+    <script>
+        function debug(e){
+            $(document).ready(function() {
+                    $('#btnFecharVenda').click();
+                });
+        }
+        
     </script>
 
 </body>

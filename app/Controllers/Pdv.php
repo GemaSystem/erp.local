@@ -175,8 +175,14 @@ class Pdv extends Controller
             endif;
 
             if ($produto['unidade']=='KG'):
-              $subtotal   = (float)$ValorKG;
-              $valor_unitario = $subtotal;
+              $subtotal   = (float)$ValorKG;  
+
+              if($produto['codigo_de_barras'] == '00000'):
+               $valor_unitario = $subtotal;
+              else :
+                $valor_unitario = $produto['valor_de_venda'];
+              endif;
+
               $quantidade = round($ValorKG / $valor_unitario, 4);  
             else :
                 if ($produto['unidade']=='PD'):

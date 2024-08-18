@@ -37,7 +37,6 @@
                             <tr>
                                 <th style="width: 35px">Cód.</th>
                                 <th>Usuário</th>
-                                <th>Senha</th>
                                 <th class="no-print" style="width: 110px">Ações</th>
                             </tr>
                         </thead>
@@ -47,7 +46,6 @@
                                     <tr>
                                         <td><?= $usuario['id_login'] ?></td>
                                         <td><?= $usuario['usuario'] ?></td>
-                                        <td><?= $usuario['senha'] ?></td>
                                         <td class="no-print">
                                             <?php if($usuario['esse_usuario_e_admin'] != 1): ?>
                                                 <button type="button" class="btn btn-danger style-action" onclick="confirmaAcaoExcluir('Deseja realmente excluir esse login?', '/login/delete/<?= $usuario['id_login'] ?>')"><i class="fa fa-trash"></i></button>
