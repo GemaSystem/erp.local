@@ -526,7 +526,12 @@ class Pdv extends Controller
                 'title' => 'Venda finalizada com sucesso!'
             ]
         );
-
+        //____________________________
+        //<br>
+        //Assinatura do Cliente   
+        //<p style='text-align: center'>
+               
+        //    </p>
         // ---------------------------------- MONTAGEM DO CUPOM NÃO FISCAL ------------------------------------------- //
         $empresa  = $this->empresa_model
                         ->where('id_empresa', $this->id_empresa)
@@ -541,7 +546,9 @@ class Pdv extends Controller
                         ->where('id_empresa', $this->id_empresa)
                         ->where('id_vendedor', $dados['id_vendedor'])
                         ->first();
-
+        $usuario   = $this->session->get('usuario');
+         
+        date_default_timezone_set('America/Sao_Paulo');
         $data = date('d/m/Y');
         $hora = date('H:i');
 
@@ -585,15 +592,11 @@ class Pdv extends Controller
             
             <hr>
 
-            <p><b>Vendedor:</b> {$vendedor['nome']}</p>
+            <p><b>Operador:</b> {$usuario}</p>
 
             <hr>
 
-            <p style='text-align: center'>
-                ____________________________
-                <br>
-                Assinatura do Cliente
-            </p>
+            
         ";
     }
 }
