@@ -1,0 +1,846 @@
+INFO - 2024-08-22 01:26:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 01:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 01:26:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-22 01:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:26:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:27:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:27:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:27:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:27:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:27:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:27:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:27:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:27:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:27:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:28:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:28:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-22 01:28:52 --> ErrorException: Array to string conversion
+in APPPATH\Views\pdv\start.php on line 520.
+ 1 APPPATH\Views\pdv\start.php(520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php', 520)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(134): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-22 01:28:52 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\erp.local\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\xampp\htdocs\erp.local\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\erp.local\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\erp.local\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\erp.local\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Array to string conversion
+#0 C:\xampp\htdocs\erp.local\app\Views\pdv\start.php(520): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 520)
+#1 C:\xampp\htdocs\erp.local\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\erp.local\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\erp.local\system\Common.php(1178): CodeIgniter\View\View->render('pdv/start', Array, true)
+#4 C:\xampp\htdocs\erp.local\app\Controllers\Pdv.php(134): view('pdv/start', Array)
+#5 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+#6 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+#7 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\erp.local\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-08-22 01:29:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:29:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:30:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:30:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:30:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:30:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:30:15 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:30:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:30:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:30:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:40:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:40:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:40:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:41:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:42:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:42:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:42:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:43:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:44:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:44:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:44:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:44:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:44:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:44:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:44:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:44:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:44:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:44:56 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:45:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:45:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:45:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:45:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:45:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:50:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:50:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:50:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:50:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:50:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:50:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:51:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:51:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-22 01:51:34 --> ErrorException: Undefined variable $valor_recebido
+in APPPATH\Views\pdv\start.php on line 521.
+ 1 APPPATH\Views\pdv\start.php(521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $valor_recebido', 'C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php', 521)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(134): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-22 01:51:34 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\erp.local\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\xampp\htdocs\erp.local\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\erp.local\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\erp.local\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\erp.local\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable $valor_recebido
+#0 C:\xampp\htdocs\erp.local\app\Views\pdv\start.php(521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 521)
+#1 C:\xampp\htdocs\erp.local\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\erp.local\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\erp.local\system\Common.php(1178): CodeIgniter\View\View->render('pdv/start', Array, true)
+#4 C:\xampp\htdocs\erp.local\app\Controllers\Pdv.php(134): view('pdv/start', Array)
+#5 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+#6 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+#7 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\erp.local\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-08-22 01:51:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:51:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-22 01:51:54 --> ErrorException: Undefined variable $troco
+in APPPATH\Views\pdv\start.php on line 521.
+ 1 APPPATH\Views\pdv\start.php(521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $troco', 'C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php', 521)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\erp.local\\app\\Views\\pdv\\start.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('pdv/start', [], true)
+ 5 APPPATH\Controllers\Pdv.php(134): view('pdv/start', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-08-22 01:51:54 --> ErrorException: Uncaught Error: Call to undefined method CodeIgniter\Debug\ExceptionHandler::cleanPath() in C:\xampp\htdocs\erp.local\app\Views\errors\html\error_exception.php:33
+Stack trace:
+#0 C:\xampp\htdocs\erp.local\system\Debug\BaseExceptionHandler.php(258): include()
+#1 C:\xampp\htdocs\erp.local\system\Debug\BaseExceptionHandler.php(261): CodeIgniter\Debug\BaseExceptionHandler->CodeIgniter\Debug\{closure}()
+#2 C:\xampp\htdocs\erp.local\system\Debug\ExceptionHandler.php(112): CodeIgniter\Debug\BaseExceptionHandler->render(Object(ErrorException), 500, 'C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\erp.local\system\Debug\Exceptions.php(156): CodeIgniter\Debug\ExceptionHandler->handle(Object(ErrorException), Object(CodeIgniter\HTTP\IncomingRequest), Object(CodeIgniter\HTTP\Response), 500, 1)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(ErrorException))
+#5 {main}
+  thrown
+【Previous Exception】
+ErrorException
+Undefined variable $troco
+#0 C:\xampp\htdocs\erp.local\app\Views\pdv\start.php(521): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 521)
+#1 C:\xampp\htdocs\erp.local\system\View\View.php(228): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\erp.local\system\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\erp.local\system\Common.php(1178): CodeIgniter\View\View->render('pdv/start', Array, true)
+#4 C:\xampp\htdocs\erp.local\app\Controllers\Pdv.php(134): view('pdv/start', Array)
+#5 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(941): App\Controllers\Pdv->start('3')
+#6 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pdv))
+#7 C:\xampp\htdocs\erp.local\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\erp.local\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#9 {main}
+in APPPATH\Views\errors\html\error_exception.php on line 33.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-08-22 01:52:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:52:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:53:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:53:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:53:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:53:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:53:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:53:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:53:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:53:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:57:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:57:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:57:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:57:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:57:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:57:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:57:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:57:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:58:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:58:34 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:58:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:58:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:58:39 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:58:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:58:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:58:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:58:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:58:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:58:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:59:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:59:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 01:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 01:59:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:12:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:12:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:12:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:12:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:12:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:12:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:12:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:12:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:12:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:12:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:12:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:12:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:12:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:13:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:14:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:14:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:14:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:14:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:14:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:15:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:15:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:15:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:15:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:15:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:15:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:15:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:15:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:15:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:15:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:15:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:15:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:15:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:15:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:15:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:15:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:15:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:15:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:15:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:17:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:17:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:17:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:17:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:17:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:17:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:17:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:17:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:17:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:17:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:17:41 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:17:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:17:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:17:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:17:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:18:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:18:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:18:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:18:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:18:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:18:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:18:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:20:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:22:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:22:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:24:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:24:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:24:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:24:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:24:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:24:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:27:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:27:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:27:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:27:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:27:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:29:33 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:29:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:29:42 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:29:48 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:30:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:30:20 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:30:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:30:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:30:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:30:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:30:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:30:31 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:32:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:32:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:32:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:32:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:32:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:34:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:34:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:36:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:36:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:36:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:36:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:36:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:36:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:36:19 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:36:24 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:36:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:36:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:36:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:36:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:36:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-08-22 02:37:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-08-22 02:37:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Pdv::$permissao is deprecated in APPPATH\Controllers\Pdv.php on line 54.
+ 1 SYSTEMPATH\CodeIgniter.php(913): App\Controllers\Pdv->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(493): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

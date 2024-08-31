@@ -300,7 +300,7 @@
         <div class="modal-dialog modal-md" style="width: 300px"> <!-- 300px = 80mm -->
             <div class="modal-content">
                 <div class="modal-header no-print">
-                    <h4 class="modal-title">Cupom não fiscal <button type="button" class="btn btn-success style-action" onclick="print()"><i class="fas fa-print"></i></button></h4>
+                    <h4 class="modal-title">Recibo <button type="button" class="btn btn-success style-action" onclick="print()"><i class="fas fa-print"></i></button></h4>
                     <button type="button" class="close" onclick="location.reload()" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
@@ -477,6 +477,11 @@
             document.getElementById(id).value = valor.replace(',', '.')
         }
 
+        function trocaPontoPorVirgula(id) {
+            var valor = document.getElementById(id).value;
+            document.getElementById(id).value = valor.replace('.', ',')
+        }
+
         function confirmaAcaoExcluir(msg, rota) {
             if (confirm(msg)) {
                 window.location.href = rota;
@@ -494,7 +499,7 @@
             var valor_recebido = document.getElementById('valor_recebido').value;
             var valor_a_pagar = document.getElementById('valor_a_pagar_informativo').innerHTML;
 
-            document.getElementById('troco').value = (valor_recebido - valor_a_pagar).toFixed(2);
+            document.getElementById('troco').value = (valor_recebido - valor_a_pagar);
         }
 
         function preparaParaAlterarQtdDoProduto(id_produto_pdv, quantidade) {
@@ -513,11 +518,36 @@
         }
 
         function finalizaVenda() {
-            var valor_a_pagar, desconto, valor_recebido, troco, forma_de_pagamento, id_cliente, id_vendedor;
+            var valor_a_pagar, desconto, valor_recebido, 
+            troco, forma_de_pagamento, id_cliente, id_vendedor;
 
             valor_a_pagar      = <?= (!empty($valor_a_pagar['valor_final'])) ? $valor_a_pagar['valor_final'] : "0" ?>;
+            //valor_a_pagar      = valor_a_pagar.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+            
+            if (!valor_a_pagar) {
+                valor_a_pagar     = "R$ 0,00";
+            }
+            else{
+                valor_a_pagar     = valor_a_pagar.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });// .toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+            }
+            trocaPontoPorVirgula('valor_recebido');
             valor_recebido     = document.getElementById('valor_recebido').value;
+            if (!valor_recebido) {
+                valor_recebido     = "R$ 0,00";
+            }
+            else{
+                valor_recebido     = 'R$ '+valor_recebido.toLocaleString('pt-br', {style: 'decimal', minimumIntegerDigits: 5});
+            }
+            trocaPontoPorVirgula('troco');
             troco              = document.getElementById('troco').value;
+            if (!troco) {
+                troco     = "R$ 0,00";
+            }
+            else{
+                troco    = 'R$ '+troco.toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+            }
+            
+            
             forma_de_pagamento = document.getElementById('forma_de_pagamento').value;
             id_cliente         = document.getElementById('id_cliente').value;
             id_vendedor        = document.getElementById('id_vendedor').value;

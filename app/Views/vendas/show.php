@@ -108,7 +108,7 @@
                 <div class="card-body no-print">
                     <div class="row">
                         <div class="col-lg-12">
-                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-cupom-nao-fiscal" onclick="preparaImpressao()"><i class="fas fa-print"></i> Cupom NÃO Fiscal</button>
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-cupom-nao-fiscal" onclick="preparaImpressao()"><i class="fas fa-print"></i> Recibo</button>
                         </div>
                     </div>
                 </div>
