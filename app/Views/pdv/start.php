@@ -139,9 +139,9 @@
     <!-- Modal Finalizar Venda -->
     <div class="modal fade" id="finalizar-venda">
         <div class="modal-dialog modal-xl">
-            <div class="modal-content">
+            <div class="modal-content">  
                 <div class="modal-header">
-                    <h4 class="modal-title">Valor à Pagar: <b>R$ <span id="valor_a_pagar_informativo"><?= $valor_a_pagar['valor_final'] ?></span></b></h4>
+                    <h4 class="modal-title">Valor à Pagar: <b>R$ <span id="valor_a_pagar_informativo"><?= number_format($valor_a_pagar['valor_final'], 2, '.', '.') ?></span></b></h4>
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">&times;</span>
                     </button>
